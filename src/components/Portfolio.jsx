@@ -1,20 +1,22 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
 import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import crud from "../assets/portfolio/crud.png";
+import ecommerce from "../assets/portfolio/ecommerce.png";
+import map from "../assets/portfolio/map.png";
+import ui from "../assets/portfolio/ui.png";
+
+
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
+      src: ui,
     },
     {
       id: 2,
-      src: reactParallax,
+      src: crud,
     },
     {
       id: 3,
@@ -22,11 +24,11 @@ const Portfolio = () => {
     },
     {
       id: 4,
-      src: reactSmooth,
+      src: ecommerce,
     },
     {
       id: 5,
-      src: installNode,
+      src: map,
     },
     {
       id: 6,
@@ -53,7 +55,7 @@ const Portfolio = () => {
               <img
                 src={src}
                 alt=""
-                className="rounded-md duration-200 hover:scale-105"
+                className=" rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
                 <button className=" w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
