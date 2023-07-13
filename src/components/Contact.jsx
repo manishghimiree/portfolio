@@ -1,4 +1,5 @@
 import React from "react";
+import { FaPhone, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -12,13 +13,12 @@ const Contact = () => {
             Contact
           </p>
           <p className="py-6">Submit the form below to get in touch with me</p>
-          {/* <p className="py-2">You can call directly at 9861203978</p>  */}
         </div>
-        <div className="flex justify-center items-center">
+        <div className="flex">
           <form
             action="https://getform.io/f/f0b387f1-6a02-44aa-bb3b-27fcb4f844aa"
             method="POST"
-            className="flex flex-col w-full md:w-1/2"
+            className="flex flex-col w-full md:w-1/2 mr-8"
           >
             <input
               type="text"
@@ -43,6 +43,20 @@ const Contact = () => {
               Let's Talk
             </button>
           </form>
+          <div className="flex flex-col">
+            <div className="flex items-center mb-4">
+              <FaPhone className="text-xl mr-2" />
+              <p>9861203978</p>
+            </div>
+            <div className="flex items-center mb-4">
+              <FaEnvelope className="text-xl mr-2" />
+              <p>manishghimire633@gmail.com</p>
+            </div>
+            <div className="flex items-center">
+              <FaMapMarkerAlt className="text-xl mr-2" />
+              <p>Kathmandu, Nepal</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
