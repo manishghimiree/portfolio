@@ -33,7 +33,7 @@ const links = [
   return (
     <div className="flex justify-between items-center h-20 w-full text-white px-4 bg-black fixed">
       <div>
-        <h1 className="text-5xl font-signature ml-2">Manish</h1>
+        <h1 className="text-5xl font-signature ml-2">Manish Ghimire</h1>
       </div>
       <ul className="hidden md:flex">
         {links.map(({ id, link }) => (
